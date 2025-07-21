@@ -163,8 +163,8 @@ package tcp_vlg_pkg;
     tcp_num_t      stop;         // packet's stop seq
     length_t       pld_len;      // packet's length
     logic [31:0]   pld_cks;      // packet's 32-bit checksum
-    tcp_num_t      pkt_start;    // packet's 32-bit checksum
-    tcp_num_t      pkt_stop;     // packet's 32-bit checksum
+    // tcp_num_t      pkt_start;    // packet's 32-bit checksum  // may be not required  
+    // tcp_num_t      pkt_stop;     // packet's 32-bit checksum  // may be not required 
     ipv4_t         src_ip;
     ipv4_t         dst_ip;
     id_t           ip_pkt_id;
